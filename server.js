@@ -4,8 +4,8 @@ const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
-//another comm
-/// ___________CONNECT TO MONGODB_______________
+
+/// ___________CONNECT TO MONGODB________________
 try {
   mongoose.connect(
     process.env.DB_URI,
