@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+/// ___________CONNECT TO MONGODB_______________
 try {
   mongoose.connect(
     process.env.DB_URI,
